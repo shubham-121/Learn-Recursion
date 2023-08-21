@@ -7,7 +7,6 @@ void sequence(int arr[],int index, int n, vector<int>&list, int sum, int s)
     
     if(index==n){
         if(s==sum){
-            count+=1;
          for(auto it:list)
          cout<<it<<"";
         }
